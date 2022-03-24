@@ -17,4 +17,4 @@ jobs:
           node-version: 14
       - run: yarn cache clean --all
       - run: yarn install --network-concurrency 1
-      - run: yarn test
+      - run: yarn test 123
